@@ -1,0 +1,10 @@
+---
+title: "Publications & presentations"
+output:
+  html_document:
+    toc: true  
+    toc_float: true
+    fig_width: 1
+---
+
+----

@@ -1,17 +1,15 @@
-name: "R Markdown Websites Tutorial"
+name: "JVL website"
 navbar:
-  title: "HOME"
+  title: "About"
   left:
-    - text: "First Observations"
-      href: first_observations.html
-    - text: "Basic Workflow"
-      href: basic_workflow.html
-    - text: "Getting Sophisticated"
-      href: getting_sophisticated.html
-    - text: "Your Turn"
-      href: your_turn.html
+    - text: "Project examples"
+      href: proj-examp.html
+    - text: "Publications & presentations"
+      href: pubs.html
+    - text: "CV"
+      href: cv.html
 output_dir: "."
 output:
   html_document:
-    theme: minimal
+    theme: default
     highlight: textmate

@@ -1,2 +1,19 @@
-# Hello
+---
+title: "Title title title"
+author:  "Jake Vander Laan (jakevl07@gmail.com)"
+output:
+  html_document:
+    toc: true  
+    toc_float: true
+    fig_width: 1
+---
 
+----
+
+# About me
+
+# Goals
+
+# Interests
+
+# Other stuff

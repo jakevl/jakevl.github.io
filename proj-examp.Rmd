@@ -1,0 +1,27 @@
+---
+title: "Project examples"
+output:
+  html_document:
+    toc: true  
+    toc_float: true
+    fig_width: 1
+---
+
+----
+
+# R packages
+## wqTools
+## irTools
+
+# Analytical documents
+## R markdown
+## Bookdown
+## Other reports
+
+# Interactive applications
+## Utah Lake Data Explorer
+## Utah's Lake Dashboard
+## High frequency dissolved oxygen
+
+# Quick examples
+
