@@ -10,18 +10,77 @@ output:
 ----
 
 # R packages
+As part of my work work for Utah DWQ, I've served as the lead developer for two R packages. I'm a wildly un-creative namer of tools, so these are just called wqTools, a package 
+of general purpose tools related to water quality analyses, and irTools, a package of tools for use in Utah's statewide water quality assessments and Integrated Reports.  
+  
+These packages continue to grow and develop as new users and use cases spark new ideas for useful tools.  
+
 ## wqTools
+wqTools is a collection of R tools developed and designed for use by Utah Division of Water Quality staff to expedite water quality analyses. 
+This includes functions for reading data from EPA's water quality portal & EPA ECHO, assigning spatial compenents of water quality standards to sample locations, generating 
+study maps, performing unit conversions, generating plots, and other tools designed to support water quality analyses.
+  
+This package is in active development and available via the [wqTools GitHub repository](https://github.com/utah-dwq/wqTools){target="_blank"}.
+
 ## irTools
+irTools is a collection of R-tools developed by Utah Division of Water Quality to enhance and automate Utah's Integrated Report (i.e. IR) on water quality. 
+The package includes tools for downloading data from EPA's Water Quality Portal and Attains, prepping raw data for water quality assessments, 
+and performing and reporting on water quality assessments. It also includes a handful of 
+  
+This package is in active development and available via the [wqTools GitHub repository](https://github.com/utah-dwq/irTools){target="_blank"}.
+
+<br>
+<br>
+<br>
+<br>
 
 # Analytical documents
-## R markdown
-## Bookdown
-## Other reports
+I am a big fan and avid user of R's markdown based packages, rmarkdown and bookdown. I use these types of documents to document my analytical process and to communicate and share my findings. 
+Below are a few examples of documents I've generated.
+
+## Salinity in Great Salt Lake
+An [analysis of changes in salinity in Great Salt Lake](https://bookdown.org/jakevl/gsl-sac1-figs/){target="_blank"} in response to changes to in hydrologic connectivity through a railroad causeway that bisects the lake.
+<iframe src="figures/gsl_sal_ts.html" style="height:400px;width:800px;border: none"></iframe>  
+
+## Demo of Utah DWQ's R packages
+A little out of date, but still useful
+https://bookdown.org/jakevl/utah-dwq-demo/
+
+## Presentation on R tools at Utah DWQ
+
+
+<br>
+<br>
+<br>
+<br>
 
 # Interactive applications
-## Utah Lake Data Explorer
-## Utah's Lake Dashboard
-## High frequency dissolved oxygen
 
-# Quick examples
+## Utah Lake Data Explorer
+Analyze and visualize water quality data in Utah Lake. This application was built to support the development of nutrient water quality standards in Utah Lake as part of the 
+[Utah Lake Water Quality Study](https://deq.utah.gov/water-quality/utah-lake-water-quality-study).
+
+[View on the DWQ Shiny apps server](https://udwq.shinyapps.io/UtahLakeDataExplorer/){target="_blank"}
+```{r, echo=F, fig.align="center"}
+knitr::include_graphics('images/utah-lake.png')
+```
+(Source code)[https://github.com/utah-dwq/UtahLakeDataExplorer]
+
+
+## Utah's Lake Dashboard
+This application is designed to interactively visualize lake profile & trophic indicator data collected by DWQ and cooperators and provide a platform for performing and 
+reviewing water quality assessments based on lake profile data.  
+[View on the DWQ Shiny apps server](https://udwq.shinyapps.io/lakedashboard/){target="_blank"}
+```{r, echo=F, fig.align="center"}
+knitr::include_graphics('images/lake-profs.png')
+```
+(Source code)[https://github.com/utah-dwq/irTools/tree/master/inst/lakeDashboard]
+
+## Utah's Water Quality Data Dashboard
+
+
+
+
+
+
 

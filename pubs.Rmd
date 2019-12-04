@@ -8,3 +8,24 @@ output:
 ---
 
 ----
+
+# Publications
+**Vander Laan, J.J.** and C.P. Hawkins. 2014. Enhancing the performance and interpretation of freshwater biological indices: an application in arid zone streams. Ecological Indicators 36:470-482.  
+<br>
+**Vander Laan, J.J.**, C.P. Hawkins, R.A. Hill, and J.R. Olson. 2013. Linking land use, instream stressors, and biological condition of streams to infer likely causes of impairment. Freshwater Science. 32(3):801-820.  
+<br>
+Chen, K., J.R. Olson, **J.J. Vander Laan**, R.A. Hill, and B. Wang, C.P. Hawkins. 2019. Improving the performance of ecological indices by balancing reference site quality and representativeness. Hydrobiologia 837 (1), 177-194.  
+<br>
+Jones, R.C., C.P. Hawkins, M.S. Fennessy, and **J.J. Vander Laan**. 2015. Modeling wetland plant metrics to improve the performance of vegetation-based indices of biological integrity. Ecological indicators 71, 533-543.  
+<br>
+Hawkins, C.P., H. Mykrä, J. Oksanen, and **J.J. Vander Laan**. 2015. Environmental disturbance can increase beta diversity of stream macroinvertebrate assemblages. Global Ecology and Biogeography 24 (4), 483-494.  
+<br>
+
+----
+
+# Recent presentations
+<br>
+<br>
+
+
+----

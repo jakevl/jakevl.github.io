@@ -1,5 +1,5 @@
 ---
-title: "Title title title"
+title: "Jake Vander Laan"
 author:  "Jake Vander Laan (jakevl07@gmail.com)"
 output:
   html_document:
@@ -11,9 +11,16 @@ output:
 ----
 
 # About me
+I am an environmental scientist and aquatic ecologist working in the water quality field. I grew up in Michigan and attended Northern Michigan University where I earned my B.S. in 
+Environmental Science. I subsequently moved out to Logan, Utah and earned an M.S. in Aquatic Ecology at Utah State University. Following my M.S., I stayed at USU and worked as a 
+research associate, conducting research in stream ecology, biodiversity, and biological assessment of aquatic ecosystems. I currently live in Salt Lake City, Utah, working in the
+Utah Department of Environmental Quality, Division of Water Quality, where I work to develop and implement water quality standards for the state of Utah and provide 
+technical expertise in water quality data analysis.    
 
-# Goals
+I have particular interests in data analysis at large spatial and temporal scales and in connecting different data types to build a more complete picture of our environment. 
+I also have a penchant for data visualization and enjoy the challenge of boiling down complicated, intertwined processes to their core components and communicating them in 
+understandable figures.  
 
-# Interests
+The bulk of my technical work is based in the R statistical language which I use to develop analytical tools (i.e. functions, packages, & visualizations), perform analyses, and 
+build interactive data applications.  
 
-# Other stuff

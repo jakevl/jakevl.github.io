@@ -263,6 +263,12 @@ $(document).ready(function () {
 }
 }
 
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
 
 .toc-content {
   padding-left: 30px;
@@ -370,23 +376,34 @@ div.tocify {
 <hr />
 <div id="r-packages" class="section level1">
 <h1>R packages</h1>
+<p>As part of my work work for Utah DWQ, I’ve served as the lead developer for two R packages. I’m a wildly un-creative namer of tools, so these are just called wqTools, a package of general purpose tools related to water quality analyses, and irTools, a package of tools for use in Utah’s statewide water quality assessments and Integrated Reports.</p>
+<p>These packages continue to grow and develop as new users and use cases spark new ideas for useful tools.</p>
 <div id="wqtools" class="section level2">
 <h2>wqTools</h2>
+<p>wqTools is a collection of R tools developed and designed for use by Utah Division of Water Quality staff to expedite water quality analyses. This includes functions for reading data from EPA’s water quality portal &amp; EPA ECHO, assigning spatial compenents of water quality standards to sample locations, generating study maps, performing unit conversions, generating plots, and other tools designed to support water quality analyses.</p>
+<p>This package is in active development and available via the <a href="https://github.com/utah-dwq/wqTools" target="_blank">wqTools GitHub repository</a>.</p>
 </div>
 <div id="irtools" class="section level2">
 <h2>irTools</h2>
+<p>irTools is a collection of R-tools developed by Utah Division of Water Quality to enhance and automate Utah’s Integrated Report (i.e. IR) on water quality. The package includes tools for downloading data from EPA’s Water Quality Portal and Attains, prepping raw data for water quality assessments, and performing and reporting on water quality assessments. It also includes a handful of</p>
+<p>This package is in active development and available via the <a href="https://github.com/utah-dwq/irTools" target="_blank">wqTools GitHub repository</a>.</p>
+<p><br> <br></p>
 </div>
 </div>
 <div id="analytical-documents" class="section level1">
 <h1>Analytical documents</h1>
-<div id="r-markdown" class="section level2">
-<h2>R markdown</h2>
+<p>I am a big fan and avid user of R’s markdown based packages, rmarkdown and bookdown. I use these types of documents to document my analytical process and to communicate and share my findings. Below are a few examples of documents I’ve generated.</p>
+<div id="salinity-in-great-salt-lake" class="section level2">
+<h2>Salinity in Great Salt Lake</h2>
+<p>An <a href="https://bookdown.org/jakevl/gsl-sac1-figs/" target="_blank">analysis of changes in salinity in Great Salt Lake</a> in response to changes to in hydrologic connectivity through a railroad causeway that bisects the lake. <iframe src="figures/gsl_sal_ts.html" style="height:400px;width:800px;border: none"></iframe></p>
 </div>
-<div id="bookdown" class="section level2">
-<h2>Bookdown</h2>
+<div id="demo-of-utah-dwqs-r-packages" class="section level2">
+<h2>Demo of Utah DWQ’s R packages</h2>
+<p>A little out of date, but still useful <a href="https://bookdown.org/jakevl/utah-dwq-demo/" class="uri">https://bookdown.org/jakevl/utah-dwq-demo/</a></p>
 </div>
-<div id="other-reports" class="section level2">
-<h2>Other reports</h2>
+<div id="presentation-on-r-tools-at-utah-dwq" class="section level2">
+<h2>Presentation on R tools at Utah DWQ</h2>
+<p><br> <br></p>
 </div>
 </div>
 <div id="interactive-applications" class="section level1">
@@ -396,6 +413,8 @@ div.tocify {
 </div>
 <div id="utahs-lake-dashboard" class="section level2">
 <h2>Utah’s Lake Dashboard</h2>
+<p>This application is designed to interactively visualize lake profile &amp; trophic indicator data collected by DWQ and cooperators and provide a platform for performing and reviewing water quality assessments based on lake profile data.<br />
+<a href="https://udwq.shinyapps.io/lakedashboard/" target="_blank">View on the DWQ Shiny apps server</a> <img src="images/lake-profs.png" width="776" style="display: block; margin: auto;" /></p>
 </div>
 <div id="high-frequency-dissolved-oxygen" class="section level2">
 <h2>High frequency dissolved oxygen</h2>
