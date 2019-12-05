@@ -3,8 +3,7 @@ title: "Jake Vander Laan"
 author:  "Jake Vander Laan (jakevl07@gmail.com)"
 output:
   html_document:
-    toc: true  
-    toc_float: true
+    toc: false  
     fig_width: 1
 ---
 

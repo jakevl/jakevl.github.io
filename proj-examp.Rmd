@@ -35,18 +35,23 @@ This package is in active development and available via the [wqTools GitHub repo
 <br>
 
 # Analytical documents
-I am a big fan and avid user of R's markdown based packages, rmarkdown and bookdown. I use these types of documents to document my analytical process and to communicate and share my findings. 
+I am a big fan and heavy user of the markdown based R packages, rmarkdown and bookdown. I use these markdown and bookdown documents to document my analytical process and to communicate and share my findings. 
 Below are a few examples of documents I've generated.
 
-## Salinity in Great Salt Lake
-An [analysis of changes in salinity in Great Salt Lake](https://bookdown.org/jakevl/gsl-sac1-figs/){target="_blank"} in response to changes to in hydrologic connectivity through a railroad causeway that bisects the lake.
+### Salinity in Great Salt Lake
+An [analysis of changes in salinity in Great Salt Lake](https://bookdown.org/jakevl/gsl-sac1-figs/){target="_blank"} in response to changes in hydrologic connectivity through a railroad causeway that bisects the lake.
 <iframe src="figures/gsl_sal_ts.html" style="height:400px;width:800px;border: none"></iframe>  
 
-## Demo of Utah DWQ's R packages
-A little out of date, but still useful
-https://bookdown.org/jakevl/utah-dwq-demo/
+### Demo of Utah DWQ's R packages
+A little out of date, but useful background.  
+[Full page](https://bookdown.org/jakevl/utah-dwq-demo/){target="_blank"}
+<iframe src="https://bookdown.org/jakevl/utah-dwq-demo/" style="height:400px;width:800px;border:  1px solid black"></iframe>  
+<br>
+<br>
 
-## Presentation on R tools at Utah DWQ
+### Presentation on R tools at Utah DWQ
+[Full page](https://bookdown.org/jakevl/utah-dwq-open-source/){target="_blank"}
+<iframe src="https://bookdown.org/jakevl/utah-dwq-open-source" style="height:400px;width:800px;border:  1px solid black"></iframe>  
 
 
 <br>
@@ -64,7 +69,7 @@ Analyze and visualize water quality data in Utah Lake. This application was buil
 ```{r, echo=F, fig.align="center"}
 knitr::include_graphics('images/utah-lake.png')
 ```
-(Source code)[https://github.com/utah-dwq/UtahLakeDataExplorer]
+[Source code](https://github.com/utah-dwq/UtahLakeDataExplorer){target="_blank"}
 
 
 ## Utah's Lake Dashboard
