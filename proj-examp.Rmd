@@ -79,15 +79,15 @@ knitr::include_graphics('images/utah-lake.png')
 This application is designed to interactively visualize lake profile & trophic indicator data collected by DWQ and cooperators and provide a platform for performing and 
 reviewing water quality assessments based on lake profile data.  
 [View on the DWQ Shiny apps server](https://udwq.shinyapps.io/lakedashboard/){target="_blank"}  
-[Source code](https://github.com/utah-dwq/irTools/tree/master/inst/lakeDashboard)
+[Source code](https://github.com/utah-dwq/irTools/tree/master/inst/lakeDashboard){target="_blank"}
 ```{r, echo=F, fig.align="center"}
 knitr::include_graphics('images/lake-profs.png')
 ```
 <br>
 
 ## Utah's Water Quality Data Dashboard
-Draft application for analyzing and visualizing water quality data in Utah and generating analytical reports. Currently embedded within the [wqTools package](https://github.com/utah-dwq/wqTools). All data derived from 
-the national [Water Quality Portal](https://www.waterqualitydata.us/).  
+Draft application for analyzing and visualizing water quality data in Utah and generating analytical reports. Currently embedded within the [wqTools package](https://github.com/utah-dwq/wqTools){target="_blank"}. All data derived from 
+the national [Water Quality Portal](https://www.waterqualitydata.us/){target="_blank"}.  
   
 To run, install wqTools package from GitHub and call the application:
 ``` {r, eval=F}
