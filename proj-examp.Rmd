@@ -65,7 +65,7 @@ A little out of date, but useful background.
 
 ## Utah Lake Data Explorer
 Analyze and visualize water quality data in Utah Lake. This application was built to support the development of nutrient water quality standards in Utah Lake as part of the 
-[Utah Lake Water Quality Study](https://deq.utah.gov/water-quality/utah-lake-water-quality-study).  
+[Utah Lake Water Quality Study](https://deq.utah.gov/water-quality/utah-lake-water-quality-study){target="_blank"}.  
   
 [View on the DWQ Shiny apps server](https://udwq.shinyapps.io/UtahLakeDataExplorer/){target="_blank"}  
 [Source code](https://github.com/utah-dwq/UtahLakeDataExplorer){target="_blank"}  
