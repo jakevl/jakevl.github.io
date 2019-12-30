@@ -1,1 +1,1 @@
-## Jake Vander Laan
+Personal page of Jake Vander Laan.
