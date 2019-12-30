@@ -48,7 +48,7 @@ that period suggests a progressive freshening of Gilbert Bay.
 
 
 ## Jordanelle Reservoir stratification
-Intense thermal stratification of a deep (up to 80 meters) reservoir in Utah, Jordanelle Reservoir.  
+Intense thermal stratification of a deep (up to 80 meters) reservoir in Utah, Jordanelle Reservoir. Data from [Water Quality Portal](https://www.waterqualitydata.us/){target="_blank"}.  
 In spite of the intense stratification, Jordanelle does occasionally turn over and fully mix with mixing events observed in 
 April of 2016, 2017, and 2018.   
 ```{r, echo=F, fig.align="center"}
@@ -60,7 +60,7 @@ knitr::include_graphics('images/jordanelle-profile.png', dpi=100)
 
 
 ## Ashley Creek TDS
-Spatial variation in total dissolved solids (TDS) in streams in the Ashley Creek watershed, Utah.  
+Spatial variation in total dissolved solids (TDS) in streams in the Ashley Creek watershed, Utah. Data from [Water Quality Portal](https://www.waterqualitydata.us/){target="_blank"}.  
 TDS increases in a downstream direction reflecting a shift from high elevation, forested watersheds to a valley agricultural watershed. Switch the baselayer from topo to satellite to see the changes in land use.   
 ```{r, echo=F, fig.align="center"}
 load('figures/conc_map.Rdata')

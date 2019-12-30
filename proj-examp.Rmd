@@ -86,7 +86,8 @@ knitr::include_graphics('images/lake-profs.png')
 <br>
 
 ## Utah's Water Quality Data Dashboard
-Draft application for analyzing and visualizing water quality data in Utah and generating analytical reports. Currently embedded within the [wqTools package](https://github.com/utah-dwq/wqTools).  
+Draft application for analyzing and visualizing water quality data in Utah and generating analytical reports. Currently embedded within the [wqTools package](https://github.com/utah-dwq/wqTools). All data derived from 
+the national [Water Quality Portal](https://www.waterqualitydata.us/).  
   
 To run, install wqTools package from GitHub and call the application:
 ``` {r, eval=F}
