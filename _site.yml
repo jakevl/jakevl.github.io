@@ -4,10 +4,10 @@ navbar:
   left:
     - text: "Project examples"
       href: proj-examp.html
-    - text: "Publications & presentations"
+    - text: "Recent favorites"
+      href: favfigs.html
+    - text: "Publications"
       href: pubs.html
-    - text: "CV"
-      href: cv.html
 output_dir: "."
 output:
   html_document:

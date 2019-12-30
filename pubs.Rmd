@@ -1,10 +1,7 @@
 ---
-title: "Publications & presentations"
+title: "Publications"
 output:
-  html_document:
-    toc: true  
-    toc_float: true
-    fig_width: 1
+  html_document
 ---
 
 ----
@@ -20,12 +17,5 @@ Jones, R.C., C.P. Hawkins, M.S. Fennessy, and **J.J. Vander Laan**. 2015. Modeli
 <br>
 Hawkins, C.P., H. Mykrä, J. Oksanen, and **J.J. Vander Laan**. 2015. Environmental disturbance can increase beta diversity of stream macroinvertebrate assemblages. Global Ecology and Biogeography 24 (4), 483-494.  
 <br>
-
-----
-
-# Recent presentations
-<br>
-<br>
-
 
 ----

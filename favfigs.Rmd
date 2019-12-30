@@ -1,0 +1,72 @@
+---
+title: "Recent favorites"
+output:
+  html_document:
+    toc: true  
+    toc_float: true
+---
+
+<style type="text/css">
+.leaflet .legend i{
+	border-radius: 50%;
+	width: 10px;
+	height: 10px;
+	margin-top: 4px;
+}
+</style>
+
+
+----
+
+This is a small collection of a few of my (relatively) recently generated favorite figures. 
+
+----
+
+## GSL deep brine layer
+Salinities in Gilbert Bay of Great Salt Lake (GSL) for surface (<=1 m) and bottom (>=4 m) samples. Data extracted from USGS NWIS.  
+This shows the the existence, dissipation, and reformation of a deep brine layer as a result of modifications made to a 
+railroad causeway that bisects the main body of GSL and dictates the hyrdologic connectivity between Gilbert and Gunnison Bays of GSL. 
+A deep brine layer (DBL) was present from 2010-2014 when Gilbert and Gunnison Bays were connected through culverts in the railroad causeway. 
+The DBL was observable at two sites with the northern site (2601) showing higher salinity than the southern site (5601). 
+Following culvert closure (2014-2017), The DBL dissipated (2014-2017) following the closure of the connecting culverts, and surface salinities in Gilbert Bay increased. The DBL reformed in summer/fall 2017 following the opening of a new causeway breach. 
+Surface salinities in Gilbert Bay decreased by about 40 g/L (4 percent) following the causeway breach opening.  
+<iframe src="figures/gsl_sal_ts.html" style="height:400px;width:800px;border: none;}"></iframe>  
+
+----
+
+## GSL salinity shifts
+Changes over time in salinity in Gilbert Bay of GSL. Data from Utah Geological Survey.  
+Salinity in Gilbert Bay is a function of the total salt pool available and the volume of the bay. To generate this figure, I modeled the historic (pre-1985) 
+salinity:water surface elevation (as a proxy for volume) relationship, predicted expected salinities under historic conditions for all sampling events, then plotted observed minus expected salinities. This removes the effect of fluctuating lake 
+levels in interpreting changes in salinity over time. Values greater than zero reflect more saline conditions and values less than zero reflect less saline than expected conditions. 
+Higher than expected salinities in the late 1980s and early 1990s may have resulted from unusually high connectivity between Gilbert and Gunnison Bays under a period of historic flooding. The decline in observed minus expected salinities since 
+that period suggests a progressive freshening of Gilbert Bay.  
+<iframe src="figures/sal_dev_ts.html" style="height:400px;width:800px;border: none;}"></iframe>  
+
+
+----
+
+
+## Jordanelle Reservoir stratification
+Intense thermal stratification of a deep (up to 80 meters) reservoir in Utah, Jordanelle Reservoir.  
+In spite of the intense stratification, Jordanelle does occasionally turn over and fully mix with mixing events observed in 
+April of 2016, 2017, and 2018.   
+```{r, echo=F, fig.align="center"}
+knitr::include_graphics('images/jordanelle-profile.png', dpi=100)
+```
+
+
+----
+
+
+## Ashley Creek TDS
+Spatial variation in total dissolved solids (TDS) in streams in the Ashley Creek watershed, Utah.  
+TDS increases in a downstream direction reflecting a shift from high elevation, forested watersheds to a valley agricultural watershed. Switch the baselayer from topo to satellite to see the changes in land use.   
+```{r, echo=F, fig.align="center"}
+load('figures/conc_map.Rdata')
+conc_map
+```
+
+----
+
+

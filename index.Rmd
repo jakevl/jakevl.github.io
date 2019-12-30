@@ -1,6 +1,5 @@
 ---
 title: "Jake Vander Laan"
-author:  "Jake Vander Laan (jakevl07@gmail.com)"
 output:
   html_document:
     toc: false  
@@ -22,4 +21,19 @@ understandable figures.
 
 The bulk of my technical work is based in the R statistical language which I use to develop analytical tools (i.e. functions, packages, & visualizations), perform analyses, and 
 build interactive data applications.  
+
+Figures and interpretations on this page reflect my own personal interpretations and do not represent any official position.  
+
+<br>
+<br>
+
+----
+
+# Contact
+Email: jakevl07@gmail.com  
+GitHub profile: [github.com/jakevl](https://github.com/jakevl)
+
+----
+
+
 
