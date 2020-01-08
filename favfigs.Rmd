@@ -24,9 +24,10 @@ This is a small collection of a few of my (relatively) recently generated favori
 
 ## GSL deep brine layer
 Salinities in Gilbert Bay of Great Salt Lake (GSL) for surface (<=1 m) and bottom (>=4 m) samples. Data extracted from USGS NWIS.  
-This shows the the existence, dissipation, and reformation of a deep brine layer as a result of modifications made to a 
+  
+This shows the existence, dissipation, and reformation of a deep brine layer (DBL) as a result of modifications made to a 
 railroad causeway that bisects the main body of GSL and dictates the hyrdologic connectivity between Gilbert and Gunnison Bays of GSL. 
-A deep brine layer (DBL) was present from 2010-2014 when Gilbert and Gunnison Bays were connected through culverts in the railroad causeway. 
+A DBL was present from 2010-2014 when Gilbert and Gunnison Bays were connected through culverts in the railroad causeway. 
 The DBL was observable at two sites with the northern site (2601) showing higher salinity than the southern site (5601). 
 Following culvert closure (2014-2017), The DBL dissipated (2014-2017) following the closure of the connecting culverts, and surface salinities in Gilbert Bay increased. The DBL reformed in summer/fall 2017 following the opening of a new causeway breach. 
 Surface salinities in Gilbert Bay decreased by about 40 g/L (4 percent) following the causeway breach opening.  

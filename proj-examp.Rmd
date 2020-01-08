@@ -27,7 +27,7 @@ irTools is a collection of R-tools developed by Utah Division of Water Quality t
 The package includes tools for downloading data from EPA's Water Quality Portal and Attains, prepping raw data for water quality assessments, 
 and performing and reporting on water quality assessments. It also includes a handful of 
   
-This package is in active development and available via the [wqTools GitHub repository](https://github.com/utah-dwq/irTools){target="_blank"}.
+This package is in active development and available via the [irTools GitHub repository](https://github.com/utah-dwq/irTools){target="_blank"}.
 
 ----
 
